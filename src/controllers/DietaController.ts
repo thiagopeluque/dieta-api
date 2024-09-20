@@ -1,7 +1,7 @@
 import { FastifyRequest, FastifyReply } from "fastify";
 
 // Importando os Tipos de Dados
-import { DadosProps } from "../types";
+import { DadosProps } from "../@types";
 
 // Importando os Services
 import { DietaService } from "../services/DietaService";    
