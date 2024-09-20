@@ -1,0 +1,31 @@
+{
+  "name": "dieta-api",
+  "version": "1.0.0",
+  "description": "Backend NodeJS + Gemini para geração de Dietas utilizando IA",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagopeluque/dieta-api.git"
+  },
+  "author": "Thiago Peluque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagopeluque/dieta-api/issues"
+  },
+  "homepage": "https://github.com/thiagopeluque/dieta-api#readme",
+  "dependencies": {
+    "@fastify/cors": "^10.0.0",
+    "@google/generative-ai": "^0.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.0.0",
+    "tsx": "^4.19.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "typescript": "^5.6.2"
+  }
+}
