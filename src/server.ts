@@ -2,7 +2,7 @@ import Fastify from "fastify";
 import cors from "@fastify/cors";
 import dotenv from "dotenv";
 
-import { routes } from "./routes";
+import { routes } from "@/routes";
 
 const app = Fastify({ logger: true });
 dotenv.config();

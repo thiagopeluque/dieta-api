@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // Importando os Tipos
-import { DadosProps } from "../@types";
+import { DadosProps } from "@/@types";
 
 class DietaService {
     async gerarDieta({ nome, peso, altura, idade, sexo, objetivo, nivel }: DadosProps) {

@@ -6,7 +6,7 @@ import {
 } from "fastify";
 
 // Importação dos Controllers
-import { DietaController } from "./controllers/DietaController";
+import { DietaController } from "@/controllers/DietaController";
 
 export async function routes(fastify: FastifyInstance, options: FastifyPluginOptions) {
     // Rota de Teste da API
